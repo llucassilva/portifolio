@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url(color.css);
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: var(--cinza-claro);
+}
+* {
+	box-sizing: border-box;
+}
+
+/* header{
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+    background-image: url(../img/principal\ .png); 
+    background-size: cover;
+    color: var(--white);
+} */
+.teste {
+	height: 100vh;
+	width: 100%;
+	flex-wrap: wrap;
+	background-image: url(../img/principal\ .png);
+	background-size: cover;
+	color: var(--white);
+}
+
+#title {
+	font-size: 2em;
+	font-weight: bold;
+	color: var(--white);
+}
+.home {
+	display: flex;
+	flex-direction: column;
+	height: 50vh;
+	align-items: center;
+}
+
+/* .fixo{
+    position: fixed;
+    z-index: 99999;
+    justify-content: center;
+    
+} */
+#cargo {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 72px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+}
+#navbarNav {
+	justify-content: flex-end;
+	color: #fff;
+}
+.nav-link {
+	color: var(--white) !important  ;
+	font-size: 1.5em;
+	font-weight: 500;
+	margin-left: 1.5rem;
+}
+.nav-link:hover {
+	transform: scale(1.2, 1.2);
+	transition: ease-in-out 0.2s;
+}
+.cargo {
+	height: 90vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.bordinha {
+	border: 3px solid #00a324;
+	padding: 1rem;
+	animation: fade-in 2s normal;
+	flex-wrap: wrap;
+}
+.funcao {
+	font-size: 2rem;
+	animation: fade-in 2s normal;
+}
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* sobre mim */
+
+.coluna-esquerda {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	animation: fade-in 2s normal;
+}
+.descricao {
+	display: flex;
+	text-align: center;
+	font-size: 1.5rem;
+}
+.coluna-direita {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* skills */
+
+.experiencia {
+	background-color: var(--cinza-escuro);
+	height: 70vh;
+	width: 100%;
+	animation: fade-in 2s normal;
+}
+.alinhamento {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.list-group-item {
+	background-color: var(--cinza-escuro);
+	border: none;
+	color: var(--white);
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+.tamanho-fonte {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: var(--white);
+}
+.skill {
+	color: var(--white);
+	font-weight: bold;
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.lista-dupla {
+	display: flex;
+	align-items: center;
+}
+/* curriculo */
+.partedeestetica {
+	color: var(--cinza-claro);
+	height: 20vh;
+	width: 100%;
+}
+
+/* Começando o rodapé */
+.rodape {
+	background-color: var(--cinza-escuro);
+	text-align: center;
+	height: 10vh;
+	width: 100%;
+}
+.link-rodape {
+	color: var(--white);
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+.link-rodape:hover {
+	transform: scale(1.2, 1.2);
+	transition: ease-in-out 0.2s;
+	color: var(--preto);
+}
+
+/* Começando escolaridade */
+
+/* começando cabeçario */
+.home2 {
+	display: flex;
+	flex-direction: column;
+	height: 10vh;
+	align-items: center;
+}
+.escolaridade {
+	height: 90vh;
+	background-color: var(--cinza-escuro);
+}
+
+.texto_escolaridade {
+	display: flex;
+	height: 90vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.tabela {
+	color: var(--white);
+}
+/* curriculo */
+.curriculo {
+	display: flex;
+	height: 30vh;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.cor_projetos {
+	background-color: var(--cinza-escuro);
+	height: 15vh;
+}
+
+/* projetos */
+.meus_projetos {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.texto-projetos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.repositorios{
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.projetinhos{
+	height: 90vh;
+	width: 100%;
+	text-align: center;
+}
+
+/* rodapé */
+.rodape2{
+
+	background-color: var(--cinza-escuro);
+	text-align: center;
+	height: 10vh;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
