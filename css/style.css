@@ -36,13 +36,10 @@ body {
 	height: 50vh;
 	align-items: center;
 }
+.js_menu{
+	background-color: #000000;
+}
 
-/* .fixo{
-    position: fixed;
-    z-index: 99999;
-    justify-content: center;
-    
-} */
 #cargo {
 	font-family: "Poppins";
 	font-style: normal;
@@ -118,6 +115,33 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+/* SKILLS COM @MEDIA */
+@media (max-width:521px){
+	.responsivo_sobre{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		
+		
+	}
+	.coluna-direita{
+		justify-content: flex-start;
+		height: 60vh;
+	}
+		
+	
+	
+}
+@media (max-width:471px){
+	.responsivo_sobremim{
+		display: flex;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+	}
+}
 
 /* skills */
 
@@ -157,6 +181,24 @@ body {
 	display: flex;
 	align-items: center;
 }
+/* SKILLS COM @MEDIA */
+@media (max-width:769px){
+	.experiencia{
+		height: 150vh;
+	}
+	.responsivo_media{
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin-bottom: 1rem ;
+	}
+	.alinhamento{
+		margin-bottom: 3rem;
+	
+	}
+}
 /* curriculo */
 .partedeestetica {
 	color: var(--cinza-claro);
@@ -183,6 +225,7 @@ body {
 }
 
 /* Começando escolaridade */
+
 
 /* começando cabeçario */
 .home2 {
@@ -240,9 +283,25 @@ body {
 	text-align: center;
 }
 .projetinhos{
-	height: 90vh;
+	height: 70vh;
 	width: 100%;
 	text-align: center;
+}
+@media (max-width:992px){
+	.responsivo_projetinhos{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	.projetinhos{
+		height: 109vh;
+	}
+	.teste_margem{
+		margin: 3rem;
+	}
 }
 
 /* rodapé */
