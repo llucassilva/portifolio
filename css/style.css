@@ -193,6 +193,7 @@ body {
 		flex-direction: column;
 		flex-wrap: wrap;
 		margin-bottom: 1rem ;
+		height: 150vh;
 	}
 	.alinhamento{
 		margin-bottom: 3rem;
