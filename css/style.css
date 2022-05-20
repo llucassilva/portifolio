@@ -198,7 +198,18 @@ body {
 	}
 	.alinhamento{
 		margin-bottom: 3rem;
-	
+		
+	}
+}
+@media (max-width:491px){
+	.alinhamento{
+		flex-direction: column;
+		width: 100%;
+		
+	}
+	.responsivo_media{
+		flex-direction: column;
+		width: 100%;
 	}
 }
 
