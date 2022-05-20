@@ -224,7 +224,6 @@ body {
 .rodape {
 	background-color: var(--cinza-escuro);
 	text-align: center;
-	/* height: 10vh; */
 	width: 100%;
 }
 .link-rodape {
@@ -364,7 +363,7 @@ body {
 
 	background-color: var(--cinza-escuro);
 	text-align: center;
-	height: 10vh;
+
 	width: 100%;
 	justify-content: center;
 	align-items: center;
@@ -380,4 +379,5 @@ body {
 .copy{
 	color: var(--white);
 	font-size: 1rem;
+	flex-direction: column;
 }
