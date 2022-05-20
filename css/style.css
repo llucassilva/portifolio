@@ -245,9 +245,21 @@ body {
 .esquerda{
 	margin-left: 2.5rem;
 }
-.direta{
+.direita{
 	margin-right: 2.5rem;
+	
 }
+
+@media (max-width:476px){
+	.esquerda{
+		margin-left: 2.5rem;
+	}
+	.direita{
+		margin-right: 2.5rem;
+	}
+
+}
+
 .home2 {
 	display: flex;
 	flex-direction: column;
