@@ -242,6 +242,12 @@ body {
 
 
 /* começando cabeçario */
+.esquerda{
+	margin-left: 2.5rem;
+}
+.direta{
+	margin-right: 2.5rem;
+}
 .home2 {
 	display: flex;
 	flex-direction: column;
