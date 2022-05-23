@@ -344,6 +344,12 @@ body {
 	}
 
 }
+@media (max-width:366px) {
+	.margemm{
+		height: 10vh;
+		margin-top: 2rem;
+	}
+}
 
 .home2 {
 	display: flex;
