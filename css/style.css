@@ -2,7 +2,7 @@
 @import url(color.css);
 body {
 	font-family: "Poppins", sans-serif;
-	background-color: var(--cinza-claro);
+	background-color: #ccc9aa;
 }
 * {
 	box-sizing: border-box;
@@ -215,7 +215,7 @@ body {
 
 /* curriculo */
 .partedeestetica {
-	color: var(--cinza-claro);
+	color: #ccc9aa;
 	height: 20vh;
 	width: 100%;
 }
