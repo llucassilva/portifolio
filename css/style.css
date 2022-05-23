@@ -208,6 +208,13 @@ body {
 	font-size: 3rem;
 	margin-bottom: 2rem;
 }
+@media (max-width:390px){
+
+	.conhecimento{
+		font-size: 2rem;
+	}
+
+}
 
 .lista-dupla {
 	display: flex;
@@ -299,6 +306,7 @@ body {
 	}
 	.distancia{
 		margin: 1.5rem;
+		font-size: 1rem;
 	}
 	.copy{
 		margin-top: 2rem;
