@@ -302,7 +302,11 @@ body {
 	text-align: center;
 	justify-content: center;
 	align-items: center;
+	background-color: #42142a;
 	
+}
+.cor_curriculo{
+	color: #fff;
 }
 .texto_curriculo{
 	text-align: center;
