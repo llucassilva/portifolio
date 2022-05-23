@@ -39,6 +39,9 @@ body {
 .js_menu{
 	background-color: #140d1a;
 }
+.navbar>.container{
+	background-color: #140d1a;
+}
 
 #cargo {
 	font-family: "Poppins";
