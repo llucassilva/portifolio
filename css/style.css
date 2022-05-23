@@ -112,6 +112,14 @@ body {
 	animation: fade-in 2s normal;
 	flex-wrap: wrap;
 }
+@media (max-width:347){
+	.display-1{
+		font-size: 64px;
+	}
+	.bemvindo{
+		font-size: 64px;
+	}
+}
 .funcao {
 	font-size: 2rem;
 	animation: fade-in 2s normal;
