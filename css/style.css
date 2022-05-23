@@ -251,6 +251,19 @@ body {
 	height: 20vh;
 	width: 100%;
 }
+.link_curriculo{
+	text-decoration: none;
+	background-color: transparent;
+	border: none;
+	
+}
+.link_curriculo2{
+	text-decoration: none;
+	color: white;
+}
+.link_curriculo2:hover{
+	color: white;
+}
 
 /* Começando o rodapé */
 .rodape {
