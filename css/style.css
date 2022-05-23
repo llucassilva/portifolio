@@ -370,6 +370,11 @@ body {
 .tabela {
 	color: var(--white);
 }
+@media (max-width:772px){
+	.responsividade_escolaridade{
+		margin-top: 2.5rem;
+	}
+}
 /* curriculo */
 .teste_curriculo:hover{
 	background-color: #42142a;
@@ -449,6 +454,11 @@ body {
 	}
 	.teste_margem{
 		margin: 3rem;
+	}
+}
+@media (max-width:992px){
+	.projetinhos{
+		height: 160vh;
 	}
 }
 .cor_projetos2{
