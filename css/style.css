@@ -281,6 +281,30 @@ body {
 	transition: ease-in-out 0.2s;
 	color: var(--preto);
 }
+@media (max-width:993px) {
+	.rodape{
+		display: flex;
+		height: 73vh;
+		justify-content: center;
+		align-items: center;
+
+		flex-direction: column;
+	}
+	.teste_rodape{
+		flex-direction: column;
+		display: flex;
+		
+		justify-content: center;
+		align-items: center;
+	}
+	.distancia{
+		margin: 1.5rem;
+	}
+	.copy{
+		margin-top: 2rem;
+	}
+
+}
 
 /* Começando escolaridade */
 
