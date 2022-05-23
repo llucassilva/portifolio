@@ -24,6 +24,9 @@ body {
 	background-size: cover;
 	color: var(--white);
 }
+.preto{
+	background-color: #140d1a;
+}
 
 #title {
 	font-size: 2em;
