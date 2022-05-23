@@ -285,6 +285,9 @@ body {
 	color: var(--white);
 }
 /* curriculo */
+.teste_curriculo:hover{
+	background-color: #42142a;
+}
 .curriculo {
 	display: flex;
 	height: 30vh;
