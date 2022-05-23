@@ -56,6 +56,38 @@ body {
 	justify-content: flex-end;
 	color: #fff;
 }
+.dropdown-menu-dark .dropdown-item.active{
+	background-color: transparent;
+}
+
+.submenu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	background-color: transparent;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	font-size: 1.5rem;
+	margin-left: 1rem;
+
+}
+.submenu:hover{
+	background-color: transparent;
+	
+}
+.submenu:focus{
+	background-color: transparent;
+	border: none;
+}
+
+.subsub{
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
 .nav-link {
 	color: var(--white) !important  ;
 	font-size: 1.5em;
