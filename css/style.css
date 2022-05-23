@@ -146,7 +146,7 @@ body {
 /* skills */
 
 .experiencia {
-	background-color: var(--cinza-escuro);
+	background-color: var(--vinho);
 	height: 70vh;
 	width: 100%;
 	animation: fade-in 2s normal;
@@ -158,7 +158,7 @@ body {
 	align-items: center;
 }
 .list-group-item {
-	background-color: var(--cinza-escuro);
+	background-color: var(--vinho);
 	border: none;
 	color: var(--white);
 	text-align: center;
@@ -222,7 +222,7 @@ body {
 
 /* Começando o rodapé */
 .rodape {
-	background-color: var(--cinza-escuro);
+	background-color: var(--vinho);
 	text-align: center;
 	width: 100%;
 }
@@ -271,7 +271,7 @@ body {
 }
 .escolaridade {
 	height: 90vh;
-	background-color: var(--cinza-escuro);
+	background-color: var(--vinho);
 }
 
 .texto_escolaridade {
@@ -293,7 +293,7 @@ body {
 	justify-content: center;
 }
 .cor_projetos {
-	background-color: var(--cinza-escuro);
+	background-color: var(--vinho);
 	height: 15vh;
 }
 .tamanho_botao{
@@ -361,7 +361,7 @@ body {
 /* rodapé */
 .rodape2{
 
-	background-color: var(--cinza-escuro);
+	background-color: var(--vinho);
 	text-align: center;
 
 	width: 100%;
