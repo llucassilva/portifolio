@@ -75,7 +75,7 @@ body {
 	align-items: center;
 }
 .bordinha {
-	border: 3px solid #00a324;
+	border: 3px solid #42142a ;
 	padding: 1rem;
 	animation: fade-in 2s normal;
 	flex-wrap: wrap;
