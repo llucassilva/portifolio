@@ -374,7 +374,7 @@ body {
 
 .texto_escolaridade {
 	display: flex;
-	height: 90vh;
+	height: 30vh;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
