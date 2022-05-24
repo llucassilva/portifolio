@@ -346,12 +346,12 @@ body {
 }
 @media (max-width:366px) {
 	.margemm{
-		display: flex;
-		justify-content:flex-start;
-		align-items: flex-start;
-		height: 10vh;
-		margin-top: 2rem;
-	}
+		display: flex!important;
+		justify-content:flex-start!important;
+		align-items: flex-start!important;
+		height: 10vh!important;
+		margin-top: 2rem !important;
+	} 
 }
 
 .home2 {
