@@ -1,207 +1,158 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Meu portifólio</title>
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-			crossorigin="anonymous"
-		/>
-		<link rel="stylesheet" href="css/style.css" />
-	</head>
-	<body>
-		<!--Criando a parte inicial-->
-		<header id="home" class="teste">
-			<nav class="navbar navbar-expand-lg navbar-light fixo" id="nav">
-				<div class="container">
-					<a class="navbar-brand" href="../portifolio#home" id="title">
-						Lucas Silva
-					</a>
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#navbarNav"
-						aria-controls="navbarNav"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span class="navbar-toggler-icon teste_cor"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarNav">
-						<ul class="navbar-nav">
-							<li class="nav-item">
-								<a
-									class="nav-link"
-									aria-current="page"
-									href="../portifolio#home"
-									>Objetivo</a
-								>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="../portifolio#sobre"> Sobre mim</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="../portifolio#skills">Conhecimento</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="../portifolio#information">Contato</a>
-							</li>
-							<div class="dropdown">
-								<button
-									class="btn btn-secondary dropdown-toggle submenu"
-									type="button"
-									id="dropdownMenuButton2"
-									data-bs-toggle="dropdown"
-									aria-expanded="false"
-								>
-									Escolaridade
-								</button>
-								<ul
-									class="dropdown-menu dropdown-menu-dark subsub"
-									aria-labelledby="dropdownMenuButton2"
-								>
-									<li>
-										<a
-											class="dropdown-item active"
-											href="../portifolio/escolaridade.html#inicio"
-											>Início</a
-										>
-									</li>
-									<li>
-										<a
-											class="dropdown-item"
-											href="../portifolio/escolaridade.html#meu_curriculo"
-											>Currículo</a
-										>
-									</li>
-									<li>
-										<a
-											class="dropdown-item"
-											href="../portifolio/escolaridade.html#meus_projetos"
-											>Projetos</a
-										>
-									</li>
-								</ul>
-							</div>
-						</ul>
-					</div>
-				</div>
-			</nav>
-			<section>
-				<div class="container cargo">
-					<h2 class="display-1 bordinha pink-800 mb-5">
-						Desenvolvedor Full Stack
-					</h2>
-					<p class="funcao bemvindo">Seja bem vindo ao meu Web Site</p>
-				</div>
-			</section>
-		</header>
 
-		<!-- criando o sobre -->
-		<main id="sobre">
-			<div class="container vh-120">
-				<div class="row responsivo_sobre">
-					<div class="col-6 coluna-esquerda">
-						<h1 class="display-3 mb-5 fw-bold responsivo_sobremim">
-							Sobre mim
-						</h1>
-						<p class="descricao">
-							Olá, eu sou Lucas Pereira, estudante de DEV e pretendo me tornar
-							um desenvolvedor Full Stack. Resido em São Bernardo do Campo, São
-							Paulo e tenho 15 anos.
-						</p>
-					</div>
-					<div class="col-6 coluna-direita">
-						<img
-							src="../portifolio/img/eu_1.png"
-							alt=""
-							class="img-fluid rounded"
-						/>
-					</div>
-				</div>
-			</div>
-		</main>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Meu portifólio</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
 
-		<!-- skills -->
-		<section id="skills" class="experiencia">
-			<div class="container tamanho h-100 w-100">
-				<div class="row text-center p-3 w-100 h-100 responsivo_media">
-					<h1 class="display-4 skill conhecimento">Conhecimento</h1>
-					<div class="col-4 alinhamento">
-						<img src="../portifolio/img/front.png" alt="" />
-						<p class="fs-2 mt-3 fw-bold tamanho-fonte">Front-End</p>
-						<div class="lista-dupla">
-							<ul class="list-group list-group-flush transparente">
-								<li class="list-group-item">HTML5</li>
-								<li class="list-group-item">CSS3</li>
-							</ul>
-							<ul class="list-group list-group-flush transparente">
-								<li class="list-group-item">JavaScript</li>
-								<li class="list-group-item">Bootstrap</li>
+<body>
+	<!--Criando a parte inicial-->
+	<header id="home" class="teste">
+		<nav class="navbar navbar-expand-lg navbar-light fixo" id="nav">
+			<div class="container">
+				<a class="navbar-brand" href="../portifolio#home" id="title">
+					Lucas Silva
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon teste_cor"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="../portifolio#home">Objetivo</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../portifolio#sobre"> Sobre mim</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../portifolio#skills">Conhecimento</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../portifolio#information">Contato</a>
+						</li>
+						<div class="dropdown">
+							<button class="btn btn-secondary dropdown-toggle submenu" type="button"
+								id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+								Escolaridade
+							</button>
+							<ul class="dropdown-menu dropdown-menu-dark subsub" aria-labelledby="dropdownMenuButton2">
+								<li>
+									<a class="dropdown-item active"
+										href="../portifolio/escolaridade.html#inicio">Início</a>
+								</li>
+								<li>
+									<a class="dropdown-item"
+										href="../portifolio/escolaridade.html#curriculo">Currículo</a>
+								</li>
+								<li>
+									<a class="dropdown-item"
+										href="../portifolio/escolaridade.html#meus_projetos">Projetos</a>
+								</li>
 							</ul>
 						</div>
-					</div>
-					<div class="col-4 alinhamento">
-						<img src="../portifolio/img/back.png" alt="" />
-						<p class="fs-2 mt-3 fw-bold tamanho-fonte">Back-End</p>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<section>
+			<div class="container cargo">
+				<h2 class="display-1 bordinha pink-800 mb-5">
+					Desenvolvedor Full Stack
+				</h2>
+				<p class="funcao bemvindo">Seja bem vindo ao meu Web Site</p>
+			</div>
+		</section>
+	</header>
+
+	<!-- criando o sobre -->
+	<main id="sobre">
+		<div class="container vh-120">
+			<div class="row responsivo_sobre">
+				<div class="col-6 coluna-esquerda">
+					<h1 class="display-3 mb-5 fw-bold responsivo_sobremim">
+						Sobre mim
+					</h1>
+					<p class="descricao">
+						Olá, eu sou Lucas Pereira, estudante de DEV e pretendo me tornar
+						um desenvolvedor Full Stack. Resido em São Bernardo do Campo, São
+						Paulo e tenho 15 anos.
+					</p>
+				</div>
+				<div class="col-6 coluna-direita">
+					<img src="../portifolio/img/eu_1.png" alt="" class="img-fluid rounded" />
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!-- skills -->
+	<section id="skills" class="experiencia">
+		<div class="container tamanho h-100 w-100">
+			<div class="row text-center p-3 w-100 h-100 responsivo_media">
+				<h1 class="display-4 skill conhecimento">Conhecimento</h1>
+				<div class="col-4 alinhamento">
+					<img src="../portifolio/img/front.png" alt="" />
+					<p class="fs-2 mt-3 fw-bold tamanho-fonte">Front-End</p>
+					<div class="lista-dupla">
 						<ul class="list-group list-group-flush transparente">
-							<li class="list-group-item">C#</li>
-							<li class="list-group-item">Python</li>
+							<li class="list-group-item">HTML5</li>
+							<li class="list-group-item">CSS3</li>
 						</ul>
-					</div>
-					<div class="col-4 alinhamento">
-						<img src="../portifolio/img/sop.png" alt="" />
-						<p class="fs-2 mt-3 fw-bold tamanho-fonte">SOP</p>
 						<ul class="list-group list-group-flush transparente">
-							<li class="list-group-item">Windows</li>
-							<li class="list-group-item">Linux</li>
+							<li class="list-group-item">JavaScript</li>
+							<li class="list-group-item">Bootstrap</li>
 						</ul>
 					</div>
 				</div>
+				<div class="col-4 alinhamento">
+					<img src="../portifolio/img/back.png" alt="" />
+					<p class="fs-2 mt-3 fw-bold tamanho-fonte">Back-End</p>
+					<ul class="list-group list-group-flush transparente">
+						<li class="list-group-item">C#</li>
+						<li class="list-group-item">Python</li>
+					</ul>
+				</div>
+				<div class="col-4 alinhamento">
+					<img src="../portifolio/img/sop.png" alt="" />
+					<p class="fs-2 mt-3 fw-bold tamanho-fonte">SOP</p>
+					<ul class="list-group list-group-flush transparente">
+						<li class="list-group-item">Windows</li>
+						<li class="list-group-item">Linux</li>
+					</ul>
+				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<section class="partedeestetica"></section>
+	<section class="partedeestetica"></section>
 
-		<!-- começando o rodapé -->
-		<footer class="rodape d-flex" id="information">
-			<div
-				class="container d-flex justify-content-between align-items-center mt-4 teste_rodape"
-			>
-				<a href="tel:+5511946635340" class="link-rodape distancia"
-					>11 946635340</a
-				>
+	<!-- começando o rodapé -->
+	<footer class="rodape d-flex" id="information">
+		<div class="container d-flex justify-content-between align-items-center mt-4 teste_rodape">
+			<a href="tel:+5511946635340" class="link-rodape distancia">11 946635340</a>
 
-				<a
-					href="mailto:lucas_pereira_silva06@hotmail.com"
-					class="link-rodape distancia"
-					>lucas_pereira_silva06@hotmail.com</a
-				>
-				<a
-					href="https://github.com/lucaspereira1406"
-					class="link-rodape distancia"
-					>Git-hub</a
-				>
-			</div>
+			<a href="mailto:lucas_pereira_silva06@hotmail.com"
+				class="link-rodape distancia">lucas_pereira_silva06@hotmail.com</a>
+			<a href="https://github.com/lucaspereira1406" class="link-rodape distancia">Git-hub</a>
+		</div>
 
-			<p class="text-center p-3 copy">Lucas Pereira © 2022 Copyright</p>
-		</footer>
+		<p class="text-center p-3 copy">Lucas Pereira © 2022 Copyright</p>
+	</footer>
 
-		<script src="js/javascript.js"></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-			integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-			integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-			crossorigin="anonymous"
-		></script>
-	</body>
+	<script src="js/javascript.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+		integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+		crossorigin="anonymous"></script>
+</body>
+
 </html>

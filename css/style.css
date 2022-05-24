@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 @import url(color.css);
+
 body {
 	font-family: "Poppins", sans-serif;
 	background-color: #ccc9aa;
 }
+
 * {
 	box-sizing: border-box;
 }
@@ -31,13 +33,15 @@ body {
 	font-weight: bold;
 	color: var(--white);
 }
+
 .home {
 	display: flex;
 	flex-direction: column;
 	height: 50vh;
 	align-items: center;
 }
-.js_menu{
+
+.js_menu {
 	background-color: #140d1a;
 }
 
@@ -53,15 +57,17 @@ body {
 
 	color: #000000;
 }
+
 #navbarNav {
 	justify-content: flex-end;
 	color: #fff;
 }
-.dropdown-menu-dark .dropdown-item.active{
+
+.dropdown-menu-dark .dropdown-item.active {
 	background-color: transparent;
 }
 
-.submenu{
+.submenu {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -75,30 +81,35 @@ body {
 	margin-left: 1rem;
 
 }
-.submenu:hover{
+
+.submenu:hover {
 	background-color: transparent;
-	
+
 }
-.submenu:focus{
+
+.submenu:focus {
 	background-color: transparent;
 	border: none;
 }
 
-.subsub{
+.subsub {
 	background-color: transparent;
 	text-decoration: none;
 	font-size: 1.5rem;
 }
+
 .nav-link {
-	color: var(--white) !important  ;
+	color: var(--white) !important;
 	font-size: 1.5em;
 	font-weight: 500;
 	margin-left: 1.5rem;
 }
+
 .nav-link:hover {
 	transform: scale(1.2, 1.2);
 	transition: ease-in-out 0.2s;
 }
+
 .cargo {
 	height: 90vh;
 
@@ -107,28 +118,34 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
 .bordinha {
-	border: 3px solid #42142a ;
+	border: 3px solid #42142a;
 	padding: 1rem;
 	animation: fade-in 2s normal;
 	flex-wrap: wrap;
 }
-@media (max-width:347){
-	.display-1{
+
+@media (max-width:347) {
+	.display-1 {
 		font-size: 64px;
 	}
-	.bemvindo{
+
+	.bemvindo {
 		font-size: 64px;
 	}
 }
+
 .funcao {
 	font-size: 2rem;
 	animation: fade-in 2s normal;
 }
+
 @keyframes fade-in {
 	from {
 		opacity: 0;
 	}
+
 	to {
 		opacity: 1;
 	}
@@ -144,11 +161,13 @@ body {
 	align-items: center;
 	animation: fade-in 2s normal;
 }
+
 .descricao {
 	display: flex;
 	text-align: center;
 	font-size: 1.5rem;
 }
+
 .coluna-direita {
 	height: 100vh;
 	display: flex;
@@ -156,27 +175,30 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
 /* SKILLS COM @MEDIA */
-@media (max-width:521px){
-	.responsivo_sobre{
+@media (max-width:521px) {
+	.responsivo_sobre {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
-		
-		
+
+
 	}
-	.coluna-direita{
+
+	.coluna-direita {
 		justify-content: flex-start;
 		height: 60vh;
 	}
-		
-	
-	
+
+
+
 }
-@media (max-width:471px){
-	.responsivo_sobremim{
+
+@media (max-width:471px) {
+	.responsivo_sobremim {
 		display: flex;
 		text-align: center;
 		align-items: center;
@@ -192,12 +214,14 @@ body {
 	width: 100%;
 	animation: fade-in 2s normal;
 }
+
 .alinhamento {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
 }
+
 .list-group-item {
 	background-color: #42142a;
 	border: none;
@@ -206,20 +230,23 @@ body {
 	font-size: 1.5rem;
 	font-weight: 400;
 }
+
 .tamanho-fonte {
 	font-size: 2.5rem;
 	font-weight: bold;
 	color: var(--white);
 }
+
 .skill {
 	color: var(--white);
 	font-weight: bold;
 	font-size: 3rem;
 	margin-bottom: 2rem;
 }
-@media (max-width:390px){
 
-	.conhecimento{
+@media (max-width:390px) {
+
+	.conhecimento {
 		font-size: 2rem;
 	}
 
@@ -229,33 +256,38 @@ body {
 	display: flex;
 	align-items: center;
 }
+
 /* SKILLS COM @MEDIA */
-@media (max-width:769px){
-	
-	.experiencia{
+@media (max-width:769px) {
+
+	.experiencia {
 		height: 150vh;
 	}
-	.responsivo_media{
+
+	.responsivo_media {
 		width: 100%;
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
 		flex-wrap: wrap;
-		margin-bottom: 1rem ;
-		
+		margin-bottom: 1rem;
+
 	}
-	.alinhamento{
+
+	.alinhamento {
 		margin-bottom: 3rem;
-		
+
 	}
 }
-@media (max-width:491px){
-	.alinhamento{
+
+@media (max-width:491px) {
+	.alinhamento {
 		flex-direction: column;
 		width: 100%;
-		
+
 	}
-	.responsivo_media{
+
+	.responsivo_media {
 		flex-direction: column;
 		width: 100%;
 	}
@@ -267,38 +299,44 @@ body {
 	height: 20vh;
 	width: 100%;
 }
-.link_curriculo{
+
+.link_curriculo {
 	text-decoration: none;
 	background-color: transparent;
 	border: none;
-	
+
 }
-.link_curriculo2{
+
+.link_curriculo2 {
 	text-decoration: none;
 	color: white;
 }
-.link_curriculo2:hover{
+
+.link_curriculo2:hover {
 	color: white;
 }
 
 /* Começando o rodapé */
 .rodape {
-	background-color:#42142a;
+	background-color: #42142a;
 	text-align: center;
 	width: 100%;
 }
+
 .link-rodape {
 	color: var(--white);
 	text-decoration: none;
 	font-size: 1.5rem;
 }
+
 .link-rodape:hover {
 	transform: scale(1.2, 1.2);
 	transition: ease-in-out 0.2s;
 	color: var(--preto);
 }
+
 @media (max-width:993px) {
-	.rodape{
+	.rodape {
 		display: flex;
 		height: 73vh;
 		justify-content: center;
@@ -306,18 +344,21 @@ body {
 
 		flex-direction: column;
 	}
-	.teste_rodape{
+
+	.teste_rodape {
 		flex-direction: column;
 		display: flex;
-		
+
 		justify-content: center;
 		align-items: center;
 	}
-	.distancia{
+
+	.distancia {
 		margin: 1.5rem;
 		font-size: 1rem;
 	}
-	.copy{
+
+	.copy {
 		margin-top: 2rem;
 	}
 
@@ -327,32 +368,36 @@ body {
 
 
 /* começando cabeçario */
-.esquerda{
+.esquerda {
 	margin-left: 2.5rem;
 }
-.direita{
+
+.direita {
 	margin-right: 2.5rem;
-	
+
 }
 
-@media (max-width:476px){
-	.esquerda{
+@media (max-width:476px) {
+	.esquerda {
 		margin-left: 2.5rem;
 	}
-	.direita{
+
+	.direita {
 		margin-right: 2.5rem;
 	}
 
 }
+
 @media (max-width:366px) {
-	.margemm{
-		display: flex!important;
-		justify-content:flex-start!important;
-		align-items: flex-start!important;
-		height: 10vh!important;
+	.margemm {
+		display: flex !important;
+		justify-content: flex-start !important;
+		align-items: flex-start !important;
+		height: 10vh !important;
 		margin-top: 2rem !important;
-	} 
-	.texto_escolaridade{
+	}
+
+	.texto_escolaridade {
 		display: none;
 	}
 }
@@ -363,10 +408,12 @@ body {
 	height: 10vh;
 	align-items: center;
 }
-.teste_background{
+
+.teste_background {
 	background-color: #140d1a;
 	height: 5rem;
 }
+
 .escolaridade {
 	height: 90vh;
 	background-color: #42142a;
@@ -379,18 +426,22 @@ body {
 	align-items: center;
 	text-align: center;
 }
+
 .tabela {
 	color: var(--white);
 }
-@media (max-width:772px){
-	.responsividade_escolaridade{
+
+@media (max-width:772px) {
+	.responsividade_escolaridade {
 		margin-top: 2.5rem;
 	}
 }
+
 /* curriculo */
-.teste_curriculo:hover{
+.teste_curriculo:hover {
 	background-color: #42142a;
 }
+
 .curriculo {
 	display: flex;
 	height: 30vh;
@@ -398,29 +449,34 @@ body {
 	text-align: center;
 	justify-content: center;
 }
+
 .cor_projetos {
 	background-color: #42142a;
 	height: 15vh;
 }
-.tamanho_botao{
+
+.tamanho_botao {
 	height: 9rem;
 	width: 15rem;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
 	background-color: #42142a;
-	
+
 }
-.cor_curriculo{
+
+.cor_curriculo {
 	color: #fff;
 }
-.texto_curriculo{
+
+.texto_curriculo {
 	text-align: center;
-	color: #fff; 
+	color: #fff;
 	text-decoration: none;
 
 }
-.texto_curriculo:hover{
+
+.texto_curriculo:hover {
 	transform: scale(1.2, 1.2);
 	transition: ease-in-out 0s;
 	color: var(--preto);
@@ -434,52 +490,60 @@ body {
 	text-align: center;
 	justify-content: center;
 }
+
 .texto-projetos {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
-.repositorios{
+
+.repositorios {
 	display: flex;
 
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
-.projetinhos{
+
+.projetinhos {
 	height: 70vh;
 	width: 100%;
 	text-align: center;
 }
-@media (max-width:992px){
-	.responsivo_projetinhos{
+
+@media (max-width:992px) {
+	.responsivo_projetinhos {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
-		
+
 	}
-	.projetinhos{
+
+	.projetinhos {
 		height: 109vh;
 	}
-	.teste_margem{
+
+	.teste_margem {
 		margin: 3rem;
 	}
 }
-@media (max-width:992px){
-	.projetinhos{
+
+@media (max-width:992px) {
+	.projetinhos {
 		height: 160vh;
 	}
 }
-.cor_projetos2{
+
+.cor_projetos2 {
 	color: #fff;
-	
+
 }
 
 /* rodapé */
-.rodape2{
+.rodape2 {
 
 	background-color: #42142a;
 	text-align: center;
@@ -488,15 +552,18 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-.teste_cor{
+
+.teste_cor {
 	color: #fff;
 	background-color: #fff;
 }
-#information{
+
+#information {
 	flex-direction: column;
-	
+
 }
-.copy{
+
+.copy {
 	color: var(--white);
 	font-size: 1rem;
 	flex-direction: column;
