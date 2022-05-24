@@ -352,6 +352,9 @@ body {
 		height: 10vh!important;
 		margin-top: 2rem !important;
 	} 
+	.texto_escolaridade{
+		display: none;
+	}
 }
 
 .home2 {
