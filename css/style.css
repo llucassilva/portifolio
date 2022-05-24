@@ -346,6 +346,9 @@ body {
 }
 @media (max-width:366px) {
 	.margemm{
+		display: flex;
+		justify-content:flex-start;
+		align-items: flex-start;
 		height: 10vh;
 		margin-top: 2rem;
 	}
